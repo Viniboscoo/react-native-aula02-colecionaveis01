@@ -9,8 +9,9 @@ function Sobre() {
         <View style={estiloResumo.container}>
             <View style={estiloResumo.borda}>
                  
-            <Text style={estiloResumo.titulo}> Matrix </Text>
-             <Text style={estiloResumo.texto}> Projeto sobre o primeiro filme da triologia Matrix </Text>
+            <Text style={estiloResumo.titulo}> GitHub </Text>
+            
+            <Text style={estiloResumo.texto}> Um pouco sobre GitHub </Text>
 
 
                 <TouchableOpacity style={estiloResumo.botaoContainer}>
