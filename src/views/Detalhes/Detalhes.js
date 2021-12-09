@@ -14,11 +14,12 @@ function Detalhes({navigation}) {
                 <View style={estiloDetalhe.borda}>
 
                 
-                    <Text style={estiloDetalhe.titulo}>Sinopse</Text>
-                    <Text style={estiloDetalhe.texto}>O GitHub costuma ser o preferido entre os seus utilizadores por oferecer também alguns recursos
-                        de redes sociais, já que é possível seguir projetos de outros desenvolvedores e ainda comentar sobre
-                        todos eles. O GitHub, além de tudo, possui um recurso bastante interessante, o Git, sendo possível 
-                        compartilhar um bloco de código.</Text>
+                    <Text style={estiloDetalhe.titulo}>DETALHES</Text>
+                    <Text style={estiloDetalhe.texto}> A seleção de pessoas para clubes De inicio terá que se cadastrar,
+                     Após se cadastrar é só selecionar algum clube da região e enviar seus dados de jogador para o clube. 
+                     Como por exemplo, nome completo , sobrenome , data de nascimento , email , telefone , e a posição que você joga.
+                     Pois se caso a pessoa ser selecionada, 
+                    com os dados pessoais será mais facil entrar em contato.</Text>
 
                     
                     <TouchableOpacity style={estiloDetalhe.botaoContainer} onPress={voltar}>

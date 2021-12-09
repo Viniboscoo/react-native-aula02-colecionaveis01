@@ -14,12 +14,12 @@ function Sobre({navigation}) {
         <View style={estiloResumo.container}>
             <View style={estiloResumo.borda}>
                  
-            <Text style={estiloResumo.titulo}> GitHub </Text>
+            <Text style={estiloResumo.titulo}> SOBRE </Text>
 
-            <Text style={estiloResumo.texto}> Um pouco sobre GitHub </Text>
-            <Text style={estiloResumo.texto}> O GitHub é considerado é uma ferramenta essencial para engenheiros de software, com uma
-             popularidade sem igual. Atualmente, ele acomoda mais de 25 milhões de usuários. Isso significa que há um número considerável 
-             de profissionais que estão procurando o GitHub para melhorar o fluxo de trabalho e a colaboração. </Text>
+            <Text style={estiloResumo.texto}> é um projeto que vai facilitar a seleção de pessoas que querem entra para algum clube, 
+            apenas por um app que te mostre os melhores clubes da região, 
+            e com seus dados e informações pessoais, terá a oportunidade de concorrer a uma vaga em algum desse clubes. </Text>
+            <Text style={estiloResumo.texto}> </Text>
 
                 <TouchableOpacity style={estiloResumo.botaoContainer} onPress={voltar}>
                    <Text style={estiloResumo.botaoTexto}>Voltar</Text> 

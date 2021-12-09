@@ -3,7 +3,7 @@ import { StyleSheet} from 'react-native';
 const estiloSobre = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#3D4D42',
+        backgroundColor: 'darkgreen',
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -15,14 +15,14 @@ const estiloSobre = StyleSheet.create({
     },
     titulo: {
         fontSize: 25,
-        color: '#8C0823',
+        color: 'white',
         fontWeight: 'bold',
         textAlign: "center",
     },
 
     texto: {
         fontSize: 20,
-        color: '#8FB399',
+        color: 'white',
         fontWeight: 'bold',
         margin: 20,
         marginLeft:20,
@@ -37,14 +37,14 @@ const estiloSobre = StyleSheet.create({
         borderRadius: 5,
         borderWidth: 2,
         height: 50,
-        borderColor: '#FFFFFF',
+        borderColor: 'white',
         backgroundColor: '#3D4D42',
         justifyContent: 'center',
         alignItems: 'center',
     },
     botaoTexto: {
         fontSize: 30,
-        color: '#F06271',
+        color: 'white',
         fontWeight:'bold'
     },
 });
