@@ -2,7 +2,12 @@ import React from 'react';
 import { Text, View, TouchableOpacity, ImageBackground } from 'react-native';
 import estiloResumo from './estiloSobre';
 
-function Sobre() {
+function Sobre({navigation}) {
+
+    const voltar = () => {
+        navigation.goBack();
+        
+    }
 
     return(
 
@@ -16,7 +21,7 @@ function Sobre() {
              popularidade sem igual. Atualmente, ele acomoda mais de 25 milhões de usuários. Isso significa que há um número considerável 
              de profissionais que estão procurando o GitHub para melhorar o fluxo de trabalho e a colaboração. </Text>
 
-                <TouchableOpacity style={estiloResumo.botaoContainer}>
+                <TouchableOpacity style={estiloResumo.botaoContainer} onPress={voltar}>
                    <Text style={estiloResumo.botaoTexto}>Voltar</Text> 
                 </TouchableOpacity>  
             </View>
